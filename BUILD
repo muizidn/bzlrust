@@ -1,4 +1,4 @@
-load("@bazel_tools//tools/build_rules/rust:rust.bzl", "rust_binary")
+load("@io_bazel_rules_rust//rust:rust.bzl", "rust_binary")
 
 rust_binary(
     name = "hello",
@@ -9,6 +9,6 @@ rust_binary(
     name = "local",
     srcs = ["local.rs"],
     deps = [
-    	"//local",
-    ]
+        "//local",
+    ],
 )
