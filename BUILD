@@ -9,6 +9,6 @@ rust_binary(
     name = "local",
     srcs = ["local.rs"],
     deps = [
-        "//local",
+        "//local_mylib",
     ],
 )

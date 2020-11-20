@@ -1,6 +1,6 @@
 
-extern crate local;
+extern crate local_mylib;
 
 fn main() {
-	println!("Hello {}", local.world());
+	println!("Hello {}", local_mylib::world());
 }
